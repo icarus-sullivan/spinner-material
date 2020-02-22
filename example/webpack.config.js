@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   watch: true,
-  entry: './index.js',
+  entry: ['spinner-material', './index.js'],
   mode: 'development',
   module: {
     rules: [

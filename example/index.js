@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
-import 'spinner-material';
-
 const Option = ({ name, description, children }) => (
   <div>
     <div>

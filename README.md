@@ -14,18 +14,34 @@ or
 yarn add spinner-material
 ```
 
-### Attributes
-|Name|Type|Default|
-|-----|-----|-----|
-|radius |Number |40 
-|color |String |#333333 
-|stroke |Number |5 
-|visible|Boolean |true 
+### Initialization
+The module registers a custom element on the window and is immediately invoked. To use the custom element, the module needs to be imported at least once somewhere in your stack. 
 
-### Import
-The module registers a custom element on the window. To use that custom element, the module needs to be imported at least once somewhere in your stack. 
+#### Webpack 
+
+```javascript 
+module.exports = {
+  entry: ['spinner-material', './index.js'],
+}
+```
+
+#### Inline 
+```javascript
+import 'spinner-material';
+
+// or
+
+require('spinner-material');
+```
 
 ### Usage
+
+|Property|Type|Default|
+|-----|-----|-----|
+|radius |String |40 
+|color |String |#333333 
+|stroke |String |5 
+|visible|String |true 
 
 ```html
 <div>

@@ -1,0 +1,32 @@
+{
+  "name": "spinner-material",
+  "version": "1.0.0",
+  "description": "A flashy material-design inspired spinner using purely css and custom element",
+  "main": "lib/index.js",
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "prepare": "npx babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icarus-sullivan/spinner-material"
+  },
+  "keywords": [
+    "react",
+    "spinner",
+    "material",
+    "design",
+    "css",
+    "solid"
+  ],
+  "author": "Chris Sullivan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6"
+  }
+}

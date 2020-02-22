@@ -21,13 +21,13 @@ yarn add spinner-material
 |color |String |#333333 
 |stroke |Number |5 
 |visible|Boolean |true 
+
+### Import
+The module registers a custom element on the window. To use that custom element, the module needs to be imported at least once somewhere in your stack. 
+
 ### Usage
-Example:
-```
-import 'spinner-material';
 
-// DOM
-
+```html
 <div>
   <spinner-material stroke="4" color="purple" radius="40" />
 </div>

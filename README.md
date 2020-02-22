@@ -1,7 +1,7 @@
 ![npm downloads total](https://img.shields.io/npm/dt/spinner-material.svg) ![npm version](https://img.shields.io/npm/v/spinner-material.svg) ![npm license](https://img.shields.io/npm/l/spinner-material.svg)
 
 # spinner-material
-A flashy material-design inspired spinner using purely css and custom element.
+A flashy material-design inspired spinner with a custom element and css.
 
 ![Example of Spinner](https://raw.githubusercontent.com/icarus-sullivan/spinner-material/master/example.gif)
 
@@ -14,28 +14,22 @@ or
 yarn add spinner-material
 ```
 
-### PropTypes
-|Name|Type|Default|Description|
-|-----|-----|-----|-----|
-|size |Number |40 |The width and height of the spinner |
-|spinnerColor |String |#333333 |The color of the spinner |
-|spinnerWidth |Number |5 |The width of the spinner's circle |
-|visible|Boolean |true |Whether to show the spinner or not|
-
+### Attributes
+|Name|Type|Default|
+|-----|-----|-----|
+|radius |Number |40 
+|color |String |#333333 
+|stroke |Number |5 
+|visible|Boolean |true 
 ### Usage
 Example:
 ```
-import Spinner from 'spinner-material';
-import React, { Component } from 'react';
+import 'spinner-material';
 
-export default class Example extends Component {
-  render() {
-  return (
-      <div>
-        <Spinner size={120} spinnerColor={"#333"} spinnerWidth={2} visible={true} />
-      </div>
-    );
-  }
-}
+// DOM
+
+<div>
+  <spinner-material stroke="4" color="purple" radius="40" />
+</div>
 ```
 
